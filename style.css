@@ -1,0 +1,270 @@
+body {
+	background: #bcdc5b;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: justify;
+	color: #323B2E;
+}
+
+.nombreProducto { /*class para centrar nombre de los productos arriba de cada imagen en el slider*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav{
+    background-color:rgb(0, 120, 38);
+    padding-bottom: 1.2%;
+}
+ 
+nav ul {                          
+    list-style: none;
+    text-align: right;
+    margin-right: 5%;
+}    
+nav ul li + li {
+    margin-left: 2%;
+}
+ 
+nav ul li {
+    border: 3px solid rgb(8, 189, 221);
+    background-color: rgb(16, 16, 191);
+    border-radius: 10px; /* ajuste este valor para cambiar la cantidad de redondez */
+    padding: 10px; /* añadir un poco de espacio de relleno para separar el contenido del borde */
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+
+nav ul li:hover {
+    transform: scale(1.5);
+    transition: 1s;
+    cursor:pointer;
+}
+
+nav ul li:hover a{
+    color:rgb(180, 186, 0);
+}
+
+
+.imgLogo:hover{
+    margin-left: 3%;
+    transform: scale(1.5);
+    transition: 1s;
+}
+.RS{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 8px 0px 8px;
+    }
+.RS:hover{
+    filter: opacity(70%);
+}
+
+
+.nombreProducto { /*class para centrar nombre de los productos arriba de cada imagen en el slider*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+/* Header */
+#header {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+#header h1 {
+	font-size: 50px;
+	/*float: left;
+	margin: 0px 0 0 0px;
+	letter-spacing: -7px;*/
+}
+/*
+#header h2 {
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 18px;
+	letter-spacing: -2px;
+}
+
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555E4F;
+	text-decoration: none;
+}*/
+
+/* Menu */
+/*
+.img{
+	width: 45px; 
+	height: 45px;
+}*/
+#imagenSesion{
+    width: 45px; 
+	height: 45px; 
+}
+
+
+
+#menu1 {
+	float: center;
+	width: 160px;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: #323B2E;
+}
+
+#menu1 ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+/*
+#menu1 li {
+}*/
+
+#menu1 a {
+	display: block;
+	width: 190px;
+	padding: 15px 0px;
+	background-color: #D9D9D9;
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #B5B5B5;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #808080 ;
+}
+/*
+#menu1 a:hover {
+	background-color: #076500;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;
+	color: #FFFFFF;
+}*/
+
+.boton-entrar:hover {
+	background-color: #076500;
+	color: white;
+	padding: 15px 0px; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+  }
+
+  .boton-entrar {
+	display: block;
+	width: 190px;
+	padding: 15px 0px;
+	border: none; 
+	border-radius: 4px;
+	background-color: #D9D9D9;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #808080 ;
+  }
+
+
+/* Content */
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border: 10px solid #FFFFFF;
+	border-top: none;
+	background: #E9EAE2;
+}
+
+#colOne {
+	text-align: center;
+	/*float: left;*/
+	/*width: 190px;
+	margin-top: 20px;
+	padding: 0 10px 0 20px;*/
+}
+
+#colTwo {
+	/*float: right;*/
+	text-align: center;
+	margin-top: 30px;
+	/*width: 440px;*/
+	padding: 0 60px 0 40px;
+}
+
+.error {
+    color: red;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif; 
+}
+.exito {
+    color: rgb(0, 190, 13);
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif; 
+}
+
+#content h2 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: -1px;
+	color: #808080;
+}
+
+
+#footer {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+#footer p {
+	text-align: center;
+	padding: 0;
+	font-size: 10px;
+}
